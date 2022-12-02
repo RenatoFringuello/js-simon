@@ -13,7 +13,7 @@ btn.addEventListener('click', function handler(){
             this.innerHTML = `#(${count})`;
             this.classList.remove('over-clicked');
             this.addEventListener('click', handler);
-        },2000);
+        },10000);
         btn.removeEventListener('click', handler);
     }
     this.innerHTML = `#(${count})`;
