@@ -7,7 +7,7 @@ btn.addEventListener('click', function(){
         count ++;
     }
     else{
-        setTimeout(function(){
+        setTimeout(() => {
             count = 0;
             this.innerHTML = `#(${count})`;
         },10000);
