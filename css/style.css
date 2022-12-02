@@ -1,0 +1,13 @@
+.normal{
+    border:2px solid gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.normal.over-clicked{
+    border:2px inset #482500;
+    background-color: red;
+    border-radius: 0px;
+}

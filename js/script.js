@@ -7,8 +7,9 @@ btn.addEventListener('click', function handler(){
         count ++;
     }
     else{
-        console.log('set');
+        btn.classList.add('over-clicked');
         setTimeout(() => {
+            btn.classList.remove('over-clicked');
             count = 0;
             this.innerHTML = `#(${count})`;
             btn.addEventListener('click', handler);
