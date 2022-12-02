@@ -5,9 +5,11 @@
     padding: .5rem 1rem;
     font-size: 1.2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 .normal.over-clicked{
-    border:2px inset #482500;
+    border:4px inset #482500;
     background-color: red;
     border-radius: 0px;
+    cursor:wait;
 }

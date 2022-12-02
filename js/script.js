@@ -14,7 +14,7 @@ btn.addEventListener('click', function handler(){
             this.classList.remove('over-clicked');
             this.addEventListener('click', handler);
         },10000);
-        btn.removeEventListener('click', handler);
+        this.removeEventListener('click', handler);
     }
     this.innerHTML = `#(${count})`;
 });
