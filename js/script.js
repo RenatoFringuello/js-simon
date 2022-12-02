@@ -9,11 +9,11 @@ btn.addEventListener('click', function handler(){
     else{
         btn.classList.add('over-clicked');
         setTimeout(() => {
-            btn.classList.remove('over-clicked');
             count = 0;
             this.innerHTML = `#(${count})`;
-            btn.addEventListener('click', handler);
-        },10000);
+            this.classList.remove('over-clicked');
+            this.addEventListener('click', handler);
+        },2000);
         btn.removeEventListener('click', handler);
     }
     this.innerHTML = `#(${count})`;
